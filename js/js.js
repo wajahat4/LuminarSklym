@@ -79,7 +79,15 @@ const scroll = new SmoothScroll('#navbar a[href*="#"]', {
     speed: 500
 
 });
+alert("Big Disclaimer! this Website is just purely made for development purpose only. We don't have any relation with Skylum Company. Thank Enjoy... Wajahat:)")
 
+//Hamburger Menu
+// function onClickMenu() {
+//     document.getElementById("menu").classList.toggle("change");
+//     document.getElementById("nav").classList.toggle("change");
+
+//     document.getElementById("menu-bg").classList.toggle("change-bg");
+// }
 // function preset() {
 //     document.getElementById("effect").classList.toggle('change-effect');
 // }

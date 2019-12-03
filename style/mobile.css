@@ -1,0 +1,140 @@
+#navbar {
+    background: url('../asset/new_year.gif') center center;
+}
+
+#navbar .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar .container .logo {
+    display: block;
+    flex: 1;
+    align-self: center;
+}
+
+#navbar .container .list {
+    align-self: center;
+    padding-right: 1.5rem;
+}
+
+#navbar .container .list li a {
+    padding: .1rem;
+    text-align: center;
+}
+
+#navbar .container .list ul {
+    display: none;
+}
+
+#showcase .container .l-heading {
+    font-size: 2rem;
+    text-align: center;
+    /* margin-top: 1rem; */
+}
+
+#showcase .container .s-heading {
+    font-size: 1.3rem;
+}
+
+#home-a .container .box-2 {
+    display: none;
+}
+
+#home-a .container .l-heading {
+    font-size: 2rem;
+}
+
+#home-b .container .l-heading {
+    font-size: 2rem;
+}
+
+#home-b .container #feature .box-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#home-b .container #feature .box-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#home-c .container .l-heading {
+    font-size: 2rem;
+}
+
+#home-c .container .features .box-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#home-c .container .features .box-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#testimonials .l-heading {
+    font-size: 2rem;
+}
+
+#testimonials .container .testimonials {
+    display: flex;
+    flex-direction: column;
+}
+
+#team .l-heading {
+    font-size: 2rem;
+}
+
+#team .container .team-members {
+    display: flex;
+    flex-direction: column;
+}
+
+#faqs .h-heading {
+    font-size: 2rem;
+}
+
+#contact .l-heading {
+    font-size: 2rem;
+}
+
+#contact .container .contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .container .contact .box-1 form .form {
+    display: grid;
+    grid-template-areas: 'name name' 'last last' 'email email' 'message message';
+}
+
+.name-text {
+    grid-area: name;
+}
+
+.last-text {
+    grid-area: last;
+}
+
+.email-text {
+    grid-area: email;
+}
+
+.message-text {
+    grid-area: message;
+}
+
+#video .container .l-heading {
+    font-size: 2rem;
+}
+
+#video .container .video video {
+    width: 300px;
+    height: 169px;
+}
+
+#footer .container .lead {
+    font-size: 1rem;
+    /* background: url('../asset/2020.gif') center center; */
+}
