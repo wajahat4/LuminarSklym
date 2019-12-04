@@ -79,7 +79,7 @@ const scroll = new SmoothScroll('#navbar a[href*="#"]', {
     speed: 500
 
 });
-alert("Big Disclaimer! this Website is just purely made for development purpose only. We don't have any relation with Skylum Company. Thank Enjoy...Developed By: Wajahat:)")
+alert("Welcome! For Landing to The Page. You Can Disable Background Music at button of page.")
 
 //Hamburger Menu
 // function onClickMenu() {
