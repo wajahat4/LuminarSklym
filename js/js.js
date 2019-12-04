@@ -63,18 +63,19 @@ function init() {
     // Init TypeWriter
     new TypeWriter(txtElement, words, wait);
 }
-// Google Maps APIs
-function initMap() {
-    var location = {
-        lat: 36.778259,
-        lng: -119.417931
-    }
-    var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 4,
-        center: location
-    });
 
-}
+// Google Maps APIs
+// function initMap() {
+//     var location = {
+//         lat: 36.778259,
+//         lng: -119.417931
+//     }
+//     var map = new google.maps.Map(document.getElementById("map"), {
+//         zoom: 4,
+//         center: location
+//     });
+
+// }
 const scroll = new SmoothScroll('#navbar a[href*="#"]', {
     speed: 500
 
