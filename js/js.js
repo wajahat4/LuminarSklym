@@ -79,7 +79,7 @@ const scroll = new SmoothScroll('#navbar a[href*="#"]', {
     speed: 500
 
 });
-alert("Welcome! For Landing to The Page. You Can Disable Background Music at the buttom of page.")
+alert("Welcome! For Landing to The Page. You Can Play Background Music at buttom of page..Thanks....")
 
 //Hamburger Menu
 // function onClickMenu() {
