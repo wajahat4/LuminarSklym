@@ -119,3 +119,6 @@ alert("Welcome! For Landing to The Page. You Can Play Background Music at buttom
 //             }, 800);
 //     }
 // });
+$(window).on('load', function() {
+    $(".load-wrapper").fadeOut('slow')
+});
